@@ -1,0 +1,15 @@
+LANDING PAGE
+    - keep the front landing page look and flow throughout the site
+    - we want to have the site be on rails, no user decisions outside dev direction
+    - the site should have the flow of intro, instruction, registration
+    - three main parts: 
+        1.) landing page (intro / registration)
+        2.) instructions
+        3.) end / conclude (restate / redirect to registration)
+
+PROFILE PAGE
+    - the profile page will display the following: User's info, movies
+
+CHILL PAGE
+    - database for movies and who likes the same movies in your zipcode
+
