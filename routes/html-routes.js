@@ -18,7 +18,7 @@ module.exports = function(app) {
   });
 
   // cms route loads cms.html
-  app.get("/cms", function(req, res) {
+  app.get("/movie", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/userpage.html"));
   });
 

@@ -25,12 +25,12 @@ module.exports = function(sequelize, DataTypes) {
       type: DataTypes.STRING,
       description: 'password',
     },
-    classMethods: {
-      associate: function (models)
-      {
-        User.hasmany(models.Movie)
-      }
-    }
+    // classMethods: {
+    //   associate: function (models)
+    //   {
+    //     User.hasmany(models.Movie)
+    //   }
+    // }
   });
   return User;
 };

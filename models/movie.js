@@ -12,13 +12,13 @@ module.exports = function(sequelize, DataTypes) {
       film_trailer: {
         type: DataTypes.STRING,
         description: 'URL',
-      },
-      classMethods: {
-        associate: function (models)
-        {
-          User.hasmany(models.Movie)
-        }
       }
+      // classMethods: {
+      //   associate: function (models)
+      //   {
+      //     User.hasmany(models.Movie)
+      //   }
+      // }
     });
     return Movie;
   };

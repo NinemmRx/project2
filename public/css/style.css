@@ -1,10 +1,4 @@
 
-/* #tab-content{
-    width: 960px;
-    margin: 20px auto 20px auto;
-    border: 2px solid #000000;
-    background-color: #ffffff;
-} */
 .container{
     overflow: auto;
     width: 940px;
@@ -106,3 +100,10 @@
 }
 
 
+
+/* #tab-content{
+    width: 960px;
+    margin: 20px auto 20px auto;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+} */

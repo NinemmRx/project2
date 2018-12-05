@@ -50,4 +50,19 @@ module.exports = function(app) {
 
    });
 
+   // Add a chirp
+  app.post("/api/movie-like", function(req, res) {
+    // app.post("/api/posts", function(req, res) {
+      // var title = req.body.film_name;
+      // var trailer = req.body.film_trailer;
+      // var userEmail = req.body.email;
+      // console.log(title, trailer, userEmail);
+
+      DB.Movie.create(req.body).then(function(dbPost) {
+        res.json(dbPost);
+      });
+    
+
+   });
+
 };
